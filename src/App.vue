@@ -21,7 +21,7 @@
         </li>
         <li>
           <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/howto02.html"
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/howto03.html"
             target="_blank"
             >Instagramの使い方</a
           >
@@ -133,7 +133,7 @@
           "
         >
           <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/howto02.html"
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/howto03.html"
             target="_blank"
           >
           </a>

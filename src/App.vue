@@ -41,6 +41,13 @@
           >
         </li>
         <li>
+          <a
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
+            target="_blank"
+            >スマホでのプリント方法</a
+          >
+        </li>
+        <li>
           <a href="https://lin.ee/DP0aI2A" target="_blank"
             ><img
               class="line"
@@ -159,11 +166,26 @@
         <div
           class="product-card"
           style="
-            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/digi_03.jpg');
+            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt_01.jpg');
           "
         >
           <a
             href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/smaho01.html"
+            target="_blank"
+          >
+          </a>
+        </div>
+      </div>
+      <div class="product-container animated-element">
+        <h3>スマホでのプリント方法</h3>
+        <div
+          class="product-card"
+          style="
+            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/digi_03.jpg');
+          "
+        >
+          <a
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
             target="_blank"
           >
           </a>

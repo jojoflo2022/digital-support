@@ -49,7 +49,7 @@
         </li>
         <li>
           <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/pay.html"
             target="_blank"
             >電子決済の使い方・登録方法</a
           >

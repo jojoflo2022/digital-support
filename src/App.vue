@@ -48,6 +48,13 @@
           >
         </li>
         <li>
+          <a
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
+            target="_blank"
+            >電子決済の使い方・登録方法</a
+          >
+        </li>
+        <li>
           <a href="https://lin.ee/DP0aI2A" target="_blank"
             ><img
               class="line"
@@ -186,6 +193,21 @@
         >
           <a
             href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
+            target="_blank"
+          >
+          </a>
+        </div>
+      </div>
+      <div class="product-container animated-element">
+        <h3>電子決済の使い方・登録方法</h3>
+        <div
+          class="product-card"
+          style="
+            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/PayPay_01.jpg');
+          "
+        >
+          <a
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/pay.html"
             target="_blank"
           >
           </a>

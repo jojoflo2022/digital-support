@@ -55,6 +55,13 @@
           >
         </li>
         <li>
+          <a
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/dxsdgs.html"
+            target="_blank"
+            >DX化とSDGsの共創</a
+          >
+        </li>
+        <li>
           <a href="https://lin.ee/DP0aI2A" target="_blank"
             ><img
               class="line"
@@ -98,7 +105,8 @@
         <p>
           サポートルームは、LINEやInstagramを使って地域の情報共有を促進し、
           町民がデジタル技術に親しむ場を提供します。<br />初心者から経験者まで、
-          どなたでも気軽に参加でき、デジタル世界での地域連携を強化します。
+          どなたでも気軽に参加でき、デジタル世界での地域連携を強化します。さらに、
+          私たちはデジタルトランスフォーメーション（DX化）を通じて、SDGs（持続可能な開発目標）に貢献する取り組みを推進しています。これにより、持続可能な未来を目指し、環境に配慮したデジタル活用法を学べる機会を提供します。
         </p>
         <h2>参加のご案内</h2>
         <p>
@@ -108,13 +116,12 @@
 
       <div class="hc2_wrapper animated-element">
         <h2>サポート内容</h2>
-        <p>サポートします</p>
-        <p>日常生活でSNSを効果的に使えるよう</p>
-        <p>スマホの使い方など</p>
-        <p>デジタル全般の疑問や悩みにも対応し</p>
-        <p>実践的な活用方法を学べる講座を提供</p>
-        <p>SNSの基本操作やアカウント設定</p>
-        <p>サポートルームでは</p>
+        <p>持続可能なデジタル社会の実現に向けた知識も学べます。</p>
+        <p>DX化とSDGsの知識を深める講座も実施しています。</p>
+        <p>デジタル全般の疑問や悩みにも対応し、</p>
+        <p>スマホの使い方や電子決済の利用方法を提供します。</p>
+        <p>SNSの基本操作やアカウント設定に加え、</p>
+        <p>SNSを効果的に使えるようサポートします。</p>
       </div>
     </section>
 
@@ -208,6 +215,21 @@
         >
           <a
             href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/pay.html"
+            target="_blank"
+          >
+          </a>
+        </div>
+      </div>
+      <div class="product-container animated-element">
+        <h3>DX化とSDGsの共創</h3>
+        <div
+          class="product-card"
+          style="
+            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/DXSDGs_01.jpg');
+          "
+        >
+          <a
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/dxsdgs.html"
             target="_blank"
           >
           </a>

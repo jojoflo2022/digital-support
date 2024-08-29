@@ -35,7 +35,7 @@
         </li>
         <li>
           <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/smaho01.html"
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/smaho01.html"
             target="_blank"
             >スマートフォン活用ガイド</a
           >
@@ -173,11 +173,11 @@
         <div
           class="product-card"
           style="
-            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt_01.jpg');
+            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/smaho_05.jpg');
           "
         >
           <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/smaho01.html"
+            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/smaho01.html"
             target="_blank"
           >
           </a>
@@ -188,7 +188,7 @@
         <div
           class="product-card"
           style="
-            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/digi_03.jpg');
+            background-image: url('https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt_01.jpg');
           "
         >
           <a

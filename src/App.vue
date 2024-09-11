@@ -12,41 +12,56 @@
   <header v-show="!isLoading">
     <nav>
       <ul class="nav-list">
-        <li>
-          <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/Instagram01.html"
-            target="_blank"
-            >Instagramの登録方法</a
-          >
+        <!-- Instagram関連のプルダウンメニュー -->
+        <li class="dropdown">
+          <a @click="toggleDropdown('instagram')">Instagram関連</a>
+          <ul v-show="dropdowns.instagram" class="dropdown-menu">
+            <li>
+              <a
+                href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/Instagram01.html"
+                target="_blank"
+                >Instagramの登録方法</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/howto03.html"
+                target="_blank"
+                >Instagramの使い方</a
+              >
+            </li>
+          </ul>
         </li>
-        <li>
-          <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/howto03.html"
-            target="_blank"
-            >Instagramの使い方</a
-          >
+
+        <!-- SNS関連のプルダウンメニュー -->
+        <li class="dropdown">
+          <a @click="toggleDropdown('sns')">SNS関連</a>
+          <ul v-show="dropdowns.sns" class="dropdown-menu">
+            <li>
+              <a
+                href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/snspre01.html"
+                target="_blank"
+                >SNSの注意点</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/smaho01.html"
+                target="_blank"
+                >スマートフォン活用ガイド</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
+                target="_blank"
+                >スマホでのプリント方法</a
+              >
+            </li>
+          </ul>
         </li>
-        <li>
-          <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/05/snspre01.html"
-            target="_blank"
-            >SNSの注意点</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/smaho01.html"
-            target="_blank"
-            >スマートフォン活用ガイド</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/prt.html"
-            target="_blank"
-            >スマホでのプリント方法</a
-          >
-        </li>
+
+        <!-- 他のリンク -->
         <li>
           <a
             href="https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/08/pay.html"
@@ -432,6 +447,10 @@ export default {
         "https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/digi_02.jpg",
         "https://www.town.minamifurano.hokkaido.jp/wp-content/uploads/2024/06/digi_04.jpg",
       ],
+      dropdowns: {
+        instagram: false,
+        sns: false,
+      },
     };
   },
   mounted() {
@@ -452,6 +471,9 @@ export default {
       const navList = document.querySelector(".nav-list");
       hamburger.classList.toggle("active");
       navList.classList.toggle("show");
+    },
+    toggleDropdown(menu) {
+      this.dropdowns[menu] = !this.dropdowns[menu];
     },
     changeImage() {
       this.currentImageIndex =

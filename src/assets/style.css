@@ -116,6 +116,7 @@ header a:hover {
 .nav-list li {
   list-style-type: none;
   margin-top: 10px;
+  position: relative; /* ドロップダウンをポジショニングするために必要 */
 }
 
 .nav-list a {
@@ -132,6 +133,47 @@ header a:hover {
   opacity: 1;
   visibility: visible;
   z-index: 11;
+}
+
+/* プルダウンメニュー用のスタイル */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* 親メニューのすぐ下に表示 */
+  left: 50%; /* 左端を50%に設定 */
+  transform: translateX(-50%); /* 自分の幅の半分だけ左に移動して中央揃え */
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 380px; /* メニューの幅 */
+  text-align: center; /* テキストを中央に揃える */
+  z-index: 3;
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc; /* 下に薄いラインを追加 */
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none; /* 最後の項目にラインを引かない */
+}
+
+.dropdown-menu li a {
+  color: #00e5f5;
+  text-decoration: none;
+  padding: 10px 0; /* テキストの上下にスペースを追加 */
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ddd;
+}
+
+/* ドロップダウンが表示される時のスタイル */
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 .button-reserve {
